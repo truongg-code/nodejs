@@ -21,6 +21,4 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(3000, () => {
-  console.log("Server is listening on port 3000");
-});
+module.exports = server;

@@ -11,4 +11,4 @@ async function callApi() {
   }
 }
 
-callApi();
+export default callApi;
